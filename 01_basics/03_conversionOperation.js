@@ -1,9 +1,9 @@
 let score = "33abc"
-console.log(typeof score);
+// console.log(typeof score);
 
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 /* try different score value:
 1. score = 33         --> number
@@ -20,7 +20,7 @@ console.log(valueInNumber);
 let isLoggedIn = ""
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-console.log(booleanIsLoggedIn);   // output true beacuse true => 1
+// console.log(booleanIsLoggedIn);   // output true beacuse true => 1
 
 /* try different isLoggedIn value:
 1. isLoggedIn = 1        --> true
@@ -30,6 +30,55 @@ console.log(booleanIsLoggedIn);   // output true beacuse true => 1
 
 let number = 33
 let stringNumber = String(number)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// ************************ Class 7 : Operations *************************
+let value = 4
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "Hello"
+let str2 = " World"
+
+let str3 = str1  + str2
+
+// console.log(str3);
+// console.log(2 + "4");
+// console.log("2" + 4);
+// console.log("2" + 3 + 5);
+// console.log(3 + 4 + "3");
+// console.log(4 + "5" + 6);
+
+let gameCounter = 100
+++gameCounter;
+// gameCounter++;
+console.log(gameCounter);
+
+// mdn : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+
+
+
+
+
+
 
