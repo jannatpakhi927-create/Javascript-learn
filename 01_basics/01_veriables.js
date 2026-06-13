@@ -10,6 +10,9 @@ accountCity = "dhaka"
 
 console.table([accountId, accountEmail, accountPassword, accountCity]);
 
+// Prefer not to use var because of issue in block scope and functional scope.
+
+
 /*
 
 | Feature                 | var                                      | let                                | const                                   |
