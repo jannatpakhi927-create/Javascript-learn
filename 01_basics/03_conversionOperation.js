@@ -54,8 +54,13 @@ let str3 = str1  + str2
 // console.log(2 + "4");
 // console.log("2" + 4);
 // console.log("2" + 3 + 5);
-// console.log(3 + 4 + "3");
-// console.log(4 + "5" + 6);
+// console.log(3 + 4 + "3");            
+
+// console.log( (3 + 4) * 5 % 3);     --> best code
+
+// console.log(+true);
+// console.log(+"");
+
 
 let gameCounter = 100
 ++gameCounter;
@@ -74,11 +79,4 @@ const b = ++a;
 
 console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
-
-
-
-
-
-
-
 
